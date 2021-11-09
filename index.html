@@ -42,6 +42,8 @@
 					<form class="navbar-form navbar-right">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="用户名...">
+						</div>
+						<div class="form-group">
 							<input type="password" class="form-control" placeholder="密码...">
 						</div>
 						<button type="submit" class="btn btn-default">登录</button>
@@ -54,6 +56,8 @@
 				<div class="col-sm-3 col-md-2 sidebar">
 					<ul class="nav nav-sidebar">
 						<li class="active"><a href="#">首页</a></li>
+					</ul>
+					<ul class="nav nav-sidebar">
 						<li><a href="">信息建立</a></li>
 						<li><a href="">信息管理</a></li>
 						<li><a href="">信息巡查</a></li>
@@ -80,9 +84,9 @@
 									<h3 class="panel-title">最新提醒</h3>
 								</div>
 								<div class="panel-body">
-									<div class="alert alert-success" role="alert">提示 您的订单（2014001）已经审批通过！</div>
-									<div class="alert alert-danger" role="alert">提示 您的订单（2014002）被打回</div>
-									<div class="alert alert-warning" role="alert">提示 您的订单（2013001）客户付款延迟</div>
+									<div class="alert alert-success" role="alert"><strong>提示</strong> 您的订单（2014001）已经审批通过！</div>
+									<div class="alert alert-danger" role="alert"><strong>提示</strong> 您的订单（2014002）被打回!</div>
+									<div class="alert alert-warning" role="alert"><strong>提示</strong> 您的订单（2013001）客户付款延迟!</div>
 								</div>
 							</div>
 						</div>
@@ -93,19 +97,19 @@
 								</div>
 								<div class="panel-body">
 									<ul class="nav nav-pills nav-stacked">
-										<div class="alert alert-info" role="alert">
-											<a href="#">订单审批<span class="badge pull-right">42</span></a>
-										</div>
+										<li>
+											<a href="#" class="alert alert-info" role="alert">订单审批<span class="badge pull-right">42</span></a>
+										</li>
 									</ul>
 									<ul class="nav nav-pills nav-stacked">
-										<div class="alert alert-info" role="alert">
-											<a href="#">订单确认<span class="badge pull-right">20</span></a>
-										</div>
+										<li>
+											<a href="#" class="alert alert-info" role="alert">订单确认<span class="badge pull-right">20</span></a>
+										</li>
 									</ul>
 									<ul class="nav nav-pills nav-stacked">
-										<div class="alert alert-info" role="alert">
-											<a href="#">付款确认<span class="badge pull-right">10</span></a>
-										</div>
+										<li>
+											<a href="#" class="alert alert-info" role="alert">付款确认<span class="badge pull-right">10</span></a>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -119,34 +123,36 @@
 								</div>
 								<div class="panel-body">
 									<table class="table table-striped">
-										<tr>
-											<td>#</td>
-											<td>产品</td>
-											<td>数量</td>
-											<td>总金额</td>
-											<td>业务员</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>Apple Macbook air</td>
-											<td>10</td>
-											<td>80000</td>
-											<td>王小贱</td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>Apple iPad air</td>
-											<td>20</td>
-											<td>65000</td>
-											<td>尹开花</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td>Apple Macbook pro</td>
-											<td>5</td>
-											<td>50000</td>
-											<td>刘老根</td>
-										</tr>
+										<thead>
+											<th>#</th>
+											<th>产品</th>
+											<th>数量</th>
+											<th>总金额</th>
+											<th>业务员</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>Apple Macbook air</td>
+												<td>10</td>
+												<td>80000</td>
+												<td>王小贱</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>Apple iPad air</td>
+												<td>20</td>
+												<td>65000</td>
+												<td>尹开花</td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>Apple Macbook pro</td>
+												<td>5</td>
+												<td>50000</td>
+												<td>刘老根</td>
+											</tr>
+										</tbody>
 									</table>
 									<button type="button" class="btn btn-primary">查看详细
 										<span aria-hidden="true">&raquo;</span>
